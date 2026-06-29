@@ -1,0 +1,26 @@
+## 🛠️ Software Stack Used
+
+This project relies on a modern data science and machine learning ecosystem built entirely in **Python**:
+
+* **Google Colab / Jupyter Notebooks:** The cloud development environment used to write code, train the model, and execute the data pipeline.
+* **Pandas & NumPy:** Core software libraries used to clean raw data, fill missing variables, and engineer new time features.
+* **Scikit-Learn:** The machine learning software framework used to handle the 80/20 data split and train the ensemble **Random Forest Regressor** engine.
+* **Gradio:** The UI software used to generate the web sliders, interactive text configurations, and output display boxes natively inside the workspace.
+
+---
+
+## 📋 What is Needed to Make the Project Complete
+
+To pull down this repository and run it end-to-end, you only need three things:
+
+### 1. The Dataset
+* **File:** `Walmart_Sales.csv` 
+* **Requirement:** This file must be uploaded into your active runtime directory sidebar (`/content/` folder in Google Colab) before executing the pipeline.
+
+### 2. Python Dependencies (`requirements.txt`)
+Create a file named `requirements.txt` containing the required software libraries:
+```text
+gradio>=4.0.0
+scikit-learn>=1.2.0
+pandas>=1.5.0
+numpy>=1.23.0
